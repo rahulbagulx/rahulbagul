@@ -67,35 +67,22 @@
   #home {
     background-size: contain; 
     background-position: center;
-    height: 25vh; 
+    height: 25vh;
+    padding: 0 0 0 10px; 
   }
 
   .home-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .home-content p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .home-btn {
     padding: 8px 20px;
     font-size: 0.9rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .home-content h1 {
-    font-size: 2.5rem;
-  }
-
-  .home-content p {
-    font-size: 1.2rem;
-  }
-
-  .home-btn {
-    padding: 8px 20px;
-    font-size: 0.9rem;
+    margin-top: 20px;
   }
 }
 
