@@ -44,8 +44,9 @@
 /* Responsive Home Section */
 @media (max-width: 768px) {
   #home {
-    padding-left: 20px;
-    background-position: center;
+    background-size: cover;
+    background-position: center center; 
+    height: 70vh; 
   }
 
   .home-content h1 {
@@ -53,12 +54,33 @@
   }
 
   .home-content p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 
   .home-btn {
-    padding: 10px 25px;
-    font-size: 1rem;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #home {
+    background-size: contain; 
+    background-position: center;
+    height: 25vh; 
+  }
+
+  .home-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .home-content p {
+    font-size: 1.2rem;
+  }
+
+  .home-btn {
+    padding: 8px 20px;
+    font-size: 0.9rem;
   }
 }
 
