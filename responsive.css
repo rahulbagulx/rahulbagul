@@ -44,9 +44,14 @@
 /* Responsive Home Section */
 @media (max-width: 768px) {
   #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
     background-size: cover;
-    background-position: center center; 
-    height: 70vh; 
+    background-position: center center;
+    padding: 0;
+    height: 80vh;
   }
 
   .home-content h1 {
@@ -65,10 +70,12 @@
 
 @media (max-width: 480px) {
   #home {
-    background-size: contain; 
+    background: none;
+    background-size: contain;
     background-position: center;
-    height: 25vh;
-    padding: 0 0 0 10px; 
+    height: 50vh;
+    width: 100%;
+    padding: 0 0 0 10px;
   }
 
   .home-content h1 {
